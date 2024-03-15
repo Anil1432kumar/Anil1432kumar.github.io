@@ -1,0 +1,117 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background-image: url('images/images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    padding: 2em;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+    font-size: 28px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    color: #007BFF;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
