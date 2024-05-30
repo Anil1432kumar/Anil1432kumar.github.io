@@ -909,6 +909,7 @@ body {
 }
 
 .acheivements1 {
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
